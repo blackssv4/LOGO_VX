@@ -4,8 +4,8 @@ import os
 import re
 from pyfiglet import Figlet
 # مسح الشاشة
+os.system('wget https://raw.githubusercontent.com/xero/figlet-fonts/master/starwars.flf')
 os.system('clear')
-
 # إنشاء اللوجو
 text = input("Enter text for logo: ")
 logo = Figlet(font="starwars").renderText(text)
