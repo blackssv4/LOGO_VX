@@ -5,7 +5,7 @@ class Colors:
     LIGHT_GREEN = '\033[92m'
     RED = '\033[91m'
 # مسار ملف bashrc
-os.system("touch .bashrc")
+os.system("touch /data/data/com.termux/files/home/.bashrc")
 bashrc_path = os.path.expanduser("~/.bashrc")
 
 # توليد اللوجو
